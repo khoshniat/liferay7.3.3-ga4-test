@@ -1,0 +1,10 @@
+Bundle-Name: test-api
+Bundle-SymbolicName: ir.sain.test.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	ir.sain.test.exception,\
+	ir.sain.test.model,\
+	ir.sain.test.service,\
+	ir.sain.test.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../test-service/service.xml

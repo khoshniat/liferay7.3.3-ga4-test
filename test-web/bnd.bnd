@@ -1,0 +1,4 @@
+Bundle-Name: test-web
+Bundle-SymbolicName: ir.sain.test
+Bundle-Version: 1.0.0
+Export-Package: ir.sain.test.constants
